@@ -1,7 +1,7 @@
-const DynamicNewsPage = () => {
+const DynamicNewsPage = ({params}) => {
     return (
         <div>
-            <h1 className="text-4xl">Dynamic News Page.</h1>
+            <h1 className="text-4xl">Dynamic News Page.{params.categoryId}</h1>
         </div>
     );
 };
